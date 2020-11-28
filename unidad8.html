@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="control.js"></script>
+</head>
+<body>
+    <h1>Ingreso al sistema</h1>
+    <form name="formulario" method="POST">
+        <p>
+            <label for="usuario">Usuario: </label>
+            <input type="text" name="usuario" id="usuario">
+        </p>
+        <p>
+            <label for="clave">Clave: </label>
+            <input type="password" name="clave" id="clave">
+        </p>
+        <p>
+            <button type="submit" onclick=validarFormulario()>Ingresar</button>
+        </p>
+
+    </form>
+</body>
+</html>
